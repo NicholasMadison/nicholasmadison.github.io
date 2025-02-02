@@ -22,3 +22,15 @@ main {
 h2 {
     text-align: center;
 }
+
+figcaption {
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+}
+
+.indent {
+    text-indent: 40px;
+    margin-left: 40px;
+    list-style-type: circle;
+}
