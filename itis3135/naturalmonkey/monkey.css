@@ -15,5 +15,11 @@ a {
 }
 
 footer {
-    padding-top: 50%;
+    text-align: center;
+    padding-top: 30%;
+}
+
+footer p {
+    text-align: center;
+    padding-left: 40px;
 }
