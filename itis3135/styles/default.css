@@ -46,3 +46,9 @@ figcaption {
     margin-right: auto;
     width: 50%;
 }
+
+ul {
+    padding-left: 15px;
+    text-align: left;
+
+}
