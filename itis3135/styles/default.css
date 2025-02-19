@@ -52,3 +52,18 @@ ul {
     text-align: left;
 
 }
+
+.bottom-nav {
+    position: fixed;
+    bottom: 10px;
+    width: 100vw;
+    height: 90px;
+    background-color: #fffce8;
+    margin: auto; /* Centers horizontally */
+    text-align: center;
+}
+
+.bottom-div {
+    height: 10px;
+    padding-bottom: 5%;
+}

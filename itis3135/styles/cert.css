@@ -1,0 +1,58 @@
+html {
+    background-color: #353839;
+    color: white;
+    
+}
+header {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; 
+}
+
+footer {
+    
+    position: fixed;
+    bottom: 0;
+    
+}
+
+
+
+  a {
+    color: #697A21;
+  }
+
+  .image-1 {
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+    width: 600px;
+    height: 500px;
+   
+    
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+  }
+  
+  .centered-div {
+    width: 100vw;
+    height: 90px;
+    background-color: #fffce8;
+    margin: auto; /* Centers horizontally */
+    text-align: center;
+    
+  }
+
+  figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+  }
+
+ .nav-div {
+padding: 7%;
+  }
