@@ -1,12 +1,12 @@
 body {
-    background-color: lightskyblue;
+    
+    background-color: #02ccc2;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a {
-    color: red;
-    text-decoration: none;
+    color: orangered;
 }
 
 a:hover {
@@ -48,7 +48,8 @@ figcaption {
 }
 
 ul {
-    padding-left: 15px;
+
+    padding-left: 50px;
     text-align: left;
 
 }
@@ -58,12 +59,31 @@ ul {
     bottom: 10px;
     width: 100vw;
     height: 90px;
-    background-color: #fffce8;
+    background-color: black;
     margin: auto; /* Centers horizontally */
     text-align: center;
 }
 
 .bottom-div {
-    height: 10px;
-    padding-bottom: 5%;
+    padding-bottom: 8%;
+}
+
+.top-div {
+    border-top: 5px solid black;
+    padding-top: 1%
+}
+
+footer {
+    color: lightblue;
+
+}
+.section {
+    padding: 0;
+    margin: auto;
+    border: 2px solid transparent;
+    
+}
+
+.divider {
+    padding: 4%;
 }
