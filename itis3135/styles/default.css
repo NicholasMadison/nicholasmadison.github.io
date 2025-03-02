@@ -1,3 +1,5 @@
+
+
 body {
     
     background-color: #02ccc2;
@@ -17,6 +19,9 @@ main {
     text-align: left;
     margin-left: 20%;
     margin-right: 20%;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 h2 {
@@ -86,4 +91,23 @@ footer {
 
 .divider {
     padding: 4%;
+}
+
+@media screen and ( min-width: 981px ) and ( max-width: 1400px ) {
+   
+    #colorbox {
+        background-color:orange;
+    }
+}
+
+@media screen and ( min-width: 601px ) and ( max-width: 980px )  {
+    #colorbox {
+        background-color:red;
+    }
+}
+
+@media screen and ( min-width: 370px ) and ( max-width: 600px ) {
+    #colorbox {
+        background-color:yellow;
+    }
 }
