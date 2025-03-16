@@ -3,37 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/default.css">
-    <title>Document</title>
+    <title>Nicholas Madison | Hobby webpage
+    </title>
     <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
+<style>
+
+    body {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    
+}
+
+body>header, body>footer, main {
+    box-sizing: border-box;
+    width: 95%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+main {
+    flex-grow: 1;
+}
+
+main {
+    background-color: black;
+}
+
+header {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+footer {
+
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+Section {
+   
+    background-color: rgb(22, 22, 22);
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: #ffa43b;
+}
+
+
+.divider {
+    border: 1px solid #ffa43b;
+}
+
+img {
+    max-width: 300px;
+    width: 50%;
+}
+
+ul {
+    text-align: left;
+}
+
+li {
+    padding: 2%
+}
+
+.pad {
+    padding: 2%;
+    padding-left: 1px;
+    padding-bottom: 1%;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: small;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+
+p {
+    padding: 1%;
+}
+
+a {
+    color: #ffa43b;
+    
+    
+}
+button {
+    background-color: #ffa43b;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+.toggleSection{
+    display: none;
+
+}
+</style>
 
 <body>
     <header>
         <h1>🎱 Billiards 🎱</h1>
         <nav>
-           <button>Home</button>
+           <button data-target="#home-form" class="toggleButton">Home</button>
            ||
-           <button>Who we Are</button>
+           <button data-target="#who-we-are-form" class="toggleButton">Who we Are</button>
            ||
-           <button>Locations to Play</button>
+           <button data-target="#locations-to-play-form" class="toggleButton">Locations to Play</button>
            ||
-           <button>Rules</button>
+           <button data-target="#rules-form" class="toggleButton">Rules</button>
            ||
-           <button>APA Seasons</button>
+           <button data-target="#apa-seasons-form" class="toggleButton">APA Seasons</button>
            ||
-           <button> Why should you play?</button>
+           <button data-target="#why-should-you-play-form" class="toggleButton"> Why should you play?</button>
            ||
-           <button>AI Prompts</button>
+           <button data-target="#ai-prompts-form" class="toggleButton">AI Prompts</button>
         </nav>
     </header>
     <div class="divider"></div>
    <main>
-        <section>
+        <section id="home-form" class="toggleSection">
             <h2>
                 Home
             </h2>
-            <img src="images/billiards1.jpg" class="center">
+            <img src="images/billiards1.jpg" class="center" >
             <figcaption>play ball</figcaption>
 
             <p>Welcome to Billiards APA promotion webpage, where the love for the game meets a vibrant community of enthusiasts! Whether you’re a seasoned player perfecting your precision or a curious newcomer eager to learn, our space is designed for all things billiards. Explore expert tips, tournament highlights, and the latest in cues and tables, or simply soak in the timeless charm of this classic sport. Here, every shot counts, and every visitor is part of the family. Let’s make every game unforgettable!</p>
@@ -42,7 +153,7 @@
         </section>
 
 
-        <section>
+        <section id="who-we-are-form" class="toggleSection">
             <h2>
                 Who we Are
             </h2>
@@ -57,7 +168,7 @@
         </section>
 
 
-        <section>
+        <section id="locations-to-play-form" class="toggleSection">
             <h2>
                 Locations to Play
             </h2>
@@ -70,14 +181,14 @@
         </section>
 
 
-        <section>
+        <section id="rules-form" class="toggleSection">
             <h2>
                 Rules
             </h2>
             <img src="images/billiards4.jpg" class="center">
             <figcaption >these must be followed</figcaption>
 
-            <ul class="divider">
+            <ul class="divider" >
                 <div class="pad">The rules for APA 8-ball are designed to ensure fair and enjoyable play for all skill levels. Here's a summary of the key points:</div>
                 
                 <li>Objective: The goal is to pocket all your designated balls (solids or stripes) and then legally pocket the 8-ball to win.</li>
@@ -103,7 +214,7 @@
         </section>
 
 
-        <section>
+        <section id="apa-seasons-form" class="toggleSection">
             <h2>
                 APA Seasons
             </h2>
@@ -123,7 +234,7 @@
         </section>
 
 
-        <section>
+        <section id="why-should-you-play-form" class="toggleSection">
             <h2>
                Why should you play? 
             </h2>
@@ -136,7 +247,7 @@
             
         </section>
 
-        <section>
+        <section id="ai-prompts-form" class="toggleSection">
             <h2>AI Prompts</h2>
 
             <ul class="divider">
@@ -150,6 +261,7 @@
             <li>when are the APA seasons</li>
             <li>why should I play in the APA</li>
             <li>give me a closing paragraph for joining the APA</li>
+            <li>how do I use jquery to make a toggle function?</li>
             </ul>
         </section>
 
@@ -160,7 +272,26 @@
     <p>Page Built by <a href="https://webpages.charlotte.edu/nmadiso1/itis3135/nm-enterprise.org/">NM Enterprise</a> &copy; 2025, <em><a href="cert.html">Certified in Responsive Web Design</a></em></p>
     </footer>
 
-    <script src="scripts/main.js"></script>
+
+    <script>
+    $(document).ready(function() {
+        $(".toggleButton").click(function(){
+
+
+            let target = $(this).data("target");
+           
+            $(".toggleSection").not(target).slideUp();
+
+            $(target).slideToggle();
+            console.log(target);
+            console.log(currentVisible); 
+            
+        });
+
+    
+      });
+    </script>
+
 </body>
 
 </html>
