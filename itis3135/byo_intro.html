@@ -1,0 +1,96 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas Madison | Natural Monkeys | ITIS 3135</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <header>
+        <div data-include="components/header.html"></div>
+
+    
+    </header>
+    <main id="colorbox">
+        <h2>BYO Intro</h2>
+        <h3>Time to BYO Intro page! Please fill out the form below so we can create your own page.</h3>
+
+        <form id="byoForm" enctype="multipart/form-data">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="Nicholas Madison" required><br><br>
+            
+            <label for="mascot">Mascot:</label>
+            <input type="text" id="mascot" name="mascot" value="Natural Monkey" required><br><br>
+
+            <label for="introImage">Image (PNG or JPG):</label>
+            <input type="file" id="introImage" name="image" accept="image/png, image/jpeg" required><br><br>
+
+            <label for="caption">Image Caption:</label>
+            <input type="text" id="caption" name="caption" value="rangers lead the way!" required><br><br>
+
+            <label for="personalBackground">Personal Background:</label>
+            <textarea id="personalBackground" name="personalBackground" rows="4" cols="50" required>I’m from a small town about 30 minutes away from charlotte. I graduated from high school at South Point in Belmont. Then proceeded to college and later joined the army. In the army I went to a Special selection course to join the 75th ranger regiment and then proceeded to Ranger School after passing the first selection. I would then serve my country in the 75th for 4 more years until I get out in 12/28/2024.</textarea><br><br>
+            
+            <label for="professionalBackground">Professional Background:</label>
+            <textarea id="professionalBackground" name="professionalBackground" rows="4" cols="50" required>For the army when I was garrisoned I worked on the networking side of computer science. That includes building stacks of routers, Switches, and AP’s systems. While also configuring them and building out IP formats for a Base of operation.</textarea><br><br>
+
+            <label for="academicBackground">Academic Background:</label>
+            <textarea id="academicBackground" name="academicBackground" rows="4" cols="50" required>I graduated with my high school diploma and later my associates degree at Gaston College.</textarea><br><br>
+
+            <label for="webDevelopmentBackground">Background in Web Development:</label>
+            <textarea id="webDevelopmentBackground" name="webDevelopmentBackground" rows="4" cols="50" required> For the army when I was garrisoned I worked on the networking side of computer science. That includes building stacks of routers, Switches, and AP’s systems. While also configuring them and building out IP formats for a Base of operation.</textarea><br><br>
+
+            <label for="platform">Primary Computer Platform:</label>
+            <input type="text" id="platform" name="platform" value="PC on personal Desktop."  required><br><br>
+
+            <!-- Courses Section -->
+            <label for="course1"> Courses Currently Taking:</label>
+            <div id="course">
+                <div>Course Title</div>
+                <input type="text" id="course1" name="course1" class="courseField" value="ITIS 3135:  Web-Based Application Design and Development">
+                <div>course Description</div>
+                <textarea id="course-description1" name="course-description1" rows="4" cols="50">I’m taking this class to understand the basics of web development so it can help me understand it more for my future business.</textarea>
+                <div>Course Title</div>
+                <input type="text" id="course2" name="course2" class="courseField" value="ITSC 2128:  Introduction to Computer Systems ">
+                <div>course Description</div>
+                <textarea id="course-description2" name="course-description2" rows="4" cols="50">course is needed to push forward my computer science degree.</textarea>
+                <div>Course Title</div>
+                <input type="text" id="course3" name="course3" class="courseField" value="ITIS 3200:  Intro to info Security and Priv ">
+                <div>course Description</div>
+                <textarea id="course-description3" name="course-description3" rows="4" cols="50">This course will help me understand the things I need to watch out for in a cyber security attack.</textarea>
+                <div>Course Title</div>
+                <input type="text" id="course4" name="course4" class="courseField" value="ACCT 2121:  Principles of ACCT I ">
+                <div>course Description</div>
+                <textarea id="course-description4" name="course-description4" rows="4" cols="50">I’m taking this class so that I can understand the basics of accounting for my future business endeavors.</textarea>
+            </div>
+            <button type="button" id="addCourse">Add Course</button><br><br>
+
+            <label for="funnyThing">Funny Thing:</label>
+            <textarea id="funnyThing" name="funnyThing" rows="4" cols="50"> I play on a billiards team with my grandpa. We are trying to qualify for the APA Vegas Tournament with our team next year.</textarea><br><br>
+
+            <label for="anythingElse">Anything Else:</label>
+            <textarea id="anythingElse" name="anythingElse" rows="2" cols="40">I have jumped out of 68 perfectly good airplanes…</textarea><br><br>
+
+            <!-- Checkbox Agreement -->
+            <label>
+                <input type="checkbox" id="agreement" name="agreement"  required>
+                I understand that what is on this page is not password protected, and I will not put anything here that I don’t want publicly available.
+            </label><br><br>
+
+            <!-- Control Buttons -->
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </main>
+    <div class="bottom-div"></div>
+    <footer>
+        <div data-include="components/footer.html"></div>
+    </footer>
+    <script src="scripts/HTMLInclude.min.js"></script>
+    <script src="scripts/survey.js"></script>
+</body>
+</html>
