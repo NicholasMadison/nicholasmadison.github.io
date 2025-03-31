@@ -9,6 +9,7 @@ body {
 
 a {
     color: orangered;
+    text-decoration: none;
 }
 
 a:hover {
@@ -35,7 +36,6 @@ figcaption {
 }
 
 .indent {
-    text-indent: 40px;
     margin-left: 40px;
     list-style-type: circle;
 }
@@ -49,7 +49,7 @@ figcaption {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 70%;
 }
 
 ul {
@@ -110,4 +110,8 @@ footer {
     #colorbox {
         background-color:yellow;
     }
+}
+
+.padding-top {
+    padding-top: 3%;
 }
