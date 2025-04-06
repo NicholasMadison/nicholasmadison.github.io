@@ -28,7 +28,6 @@ main {
 .mid-section {
     padding-left: 8%;
     padding-right: 8%;
-    width: 100%;
     color: white;
     background-color: rgb(88, 139, 173);
     padding-top: 30px;
@@ -40,8 +39,8 @@ main {
     padding-right: 12%;
 }
 .padding2 {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
 }
 
 
@@ -52,7 +51,7 @@ img {
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
