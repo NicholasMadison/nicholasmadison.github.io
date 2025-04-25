@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Strides Of Strength | Client Page</title>
     <link rel="stylesheet" href="styles/default.css">
+    <link rel="stylesheet" href="styles/gallery.css">
     <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -15,16 +16,30 @@
 
     <main>
         <h2>About us</h2>
+        <p>Strides of Strength Therapeutic Services, Inc. is a 501(c)(3) charitable and educational organization founded in 2018. Born out of her love of horses, profession of physical therapy and understanding of the human-horse connection, Beth Gaston developed Strides of Strength Therapeutic Services, Inc. </p>
+
+      
+        <div id="gallery">
+            <h3>Our Volunteer Moments</h3>
+            <div id="carousel">
+                <button id="prevBtn">❮</button>
+                <img id="carouselImage" src="_blank" alt="Volunteer moment">
+                <button id="nextBtn">❯</button>
+            </div>
+        </div>
+        
+
+        <section class="mid-section">
+        <p>Our population includes children and adults with mental, physical, emotional, and functional disabilities.</p>
+        <figure>
+            <img src="images/pic8.webp" alt="horse therapy">
+        </figure>
+        </section>
+
+        <p> Strides of Strength Therapeutic Services, Inc. does not discriminate based on race, color, national origin, sex, religion, age, disability, political beliefs, sexual orientation, marital or family status. </p>
         <figure>
             <img src="images/pic3.webp" alt="horse therapy">
         </figure>
-        <p>Strides of Strength Therapeutic Services, Inc. is a 501(c)(3) charitable and educational organization founded in 2018. Born out of her love of horses, profession of physical therapy and understanding of the human-horse connection, Beth Gaston developed Strides of Strength Therapeutic Services, Inc. </p>
-        <figure>
-            <img src="images/rs=w_600,h_300,cg_true.webp" alt="horse therapy">
-        </figure>
-        <p>Our population includes children and adults with mental, physical, emotional, and functional disabilities.</p>
-        <p> Strides of Strength Therapeutic Services, Inc. does not discriminate based on race, color, national origin, sex, religion, age, disability, political beliefs, sexual orientation, marital or family status. </p>
-
         <section class="mid-section">
             <h3>Foster</h3>
             <p>Growth, learning, and healing in those with mental, physical, and emotional disabilities</p>
@@ -47,6 +62,7 @@
         <div data-include="components/footer.html"></div>
     </footer>
     
+    <script src="scripts/gallery.js"></script>
     <script src="scripts/HTMLInclude.min.js"></script>
 </body>
 </html>

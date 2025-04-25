@@ -1,0 +1,47 @@
+#volunteerForm {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#volunteerForm label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#volunteerForm input,
+#volunteerForm textarea {
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#volunteerForm textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+#volunteerForm button {
+    display: block;
+    width: 100%;
+
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+#volunteerForm button:hover {
+    background-color: #0056b3;
+}
