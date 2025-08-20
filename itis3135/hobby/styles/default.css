@@ -1,0 +1,51 @@
+
+/*hwells10 */
+body {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+}
+
+body>header, body>footer, main {
+    box-sizing: border-box;
+    width: 95%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+main {
+    flex-grow: 1;
+}
+
+main {
+    background: linear-gradient(
+        black 10%,
+        grey 20%,
+        black 40%
+    );
+}
+
+header {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+footer {
+    background-color: #ffa43b;
+    color: black;
+}
+
+Section {
+    text-align: center;
+    background-color: rgb(22, 22, 22);
+    color: #ffa43b;
+}
+
+.border {
+    border: 1px solid #ffa43b
+}
